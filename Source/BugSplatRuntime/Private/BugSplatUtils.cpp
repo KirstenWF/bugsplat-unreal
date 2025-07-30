@@ -2,6 +2,14 @@
 
 #include "BugSplatUtils.h"
 
+
+// WAYFINDER_CHANGE: name@wayfindergames.se, Kauri-XXX - BEGIN: Change Change
+#ifdef _MSC_VER
+#pragma warning(push)
+#pragma warning(disable : 4312)
+#endif
+// WAYFINDER_CHANGE: name@wayfindergames.se - END
+
 void UBugSplatUtils::GenerateCrash()
 {
 	UE_LOG(LogTemp, Log, TEXT("BugSplat: GenerateCrash"));
